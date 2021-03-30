@@ -1,5 +1,5 @@
 {
-  "name": "light/yii2-swagger",
+  "name": "baitu/yii2-swagger",
   "description": "swagger intergation with yii2",
   "type": "library",
   "keywords": ["yii2","extension","swagger","Restful","document"],
@@ -22,7 +22,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0.x-dev"
+      "dev-master": "1.0.0"
     }
   },
   "config": {
