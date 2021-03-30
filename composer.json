@@ -1,0 +1,40 @@
+{
+  "name": "light/yii2-swagger",
+  "description": "swagger intergation with yii2",
+  "type": "library",
+  "keywords": ["yii2","extension","swagger","Restful","document"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "baitu",
+      "email": "k7@liaoke.tv"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "zircote/swagger-php": "^3.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "baidu\\swagger\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
