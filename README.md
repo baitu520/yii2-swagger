@@ -24,13 +24,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist light/yii2-swagger "~1.0.4" --dev
+php composer.phar require --prefer-dist baitu/yii2-swagger "*" --dev
 ```
 
 or add
 
 ```
-"light/yii2-swagger": "~1.0.4"
+"baitu/yii2-swagger": "~1.0.4"
 ```
 
 to the require section of your `composer.json` file.
@@ -47,12 +47,12 @@ public function actions()
     return [
         //The document preview addesss:http://api.yourhost.com/site/doc
         'doc' => [
-            'class' => 'light\swagger\SwaggerAction',
+            'class' => 'baitu\swagger\SwaggerAction',
             'restUrl' => \yii\helpers\Url::to(['/site/api'], true),
         ],
         //The resultUrl action.
         'api' => [
-            'class' => 'light\swagger\SwaggerApiAction',
+            'class' => 'baitu\swagger\SwaggerApiAction',
             //The scan directories, you should use real path there.
             'scanDir' => [
                 Yii::getAlias('@api/modules/v1/swagger'),
@@ -94,10 +94,6 @@ Example: `curl 'http://localhost/v1/swagger/api?clear-cache'`
 
 you will see: `Succeed clear swagger api cache.`
 
-
-Finally
-----
-__If there also some confused, you can refer the [Demo](https://github.com/lichunqiang/yii2-swagger-demo).__
 
 
 License
