@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace baidu\swagger;
+namespace baitu\swagger;
 
 use yii\web\AssetBundle;
 
