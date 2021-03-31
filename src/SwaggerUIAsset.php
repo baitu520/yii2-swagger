@@ -20,6 +20,8 @@ class SwaggerUIAsset extends AssetBundle
     public $baseUrl = '@web';
 
     public $js = [
+        'swagger-ui.js',
+        'swagger-ui-es-bundle-core.js',
         'swagger-ui-bundle.js',
         'swagger-ui-standalone-preset.js',
     ];
