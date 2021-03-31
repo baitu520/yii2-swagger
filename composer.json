@@ -20,11 +20,6 @@
       "baidu\\swagger\\": "src"
     }
   },
-  "extra": {
-    "branch-alias": {
-      "dev-main": "1.0.1.x-dev"
-    }
-  },
   "config": {
     "process-timeout": 1800,
     "fxp-asset": {
