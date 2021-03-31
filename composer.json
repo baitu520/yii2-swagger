@@ -22,7 +22,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-main": "main"
+      "dev-main": "1.0.1.x-dev"
     }
   },
   "config": {
