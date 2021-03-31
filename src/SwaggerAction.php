@@ -1,15 +1,13 @@
 <?php
 
 /*
- * This file is part of the light/yii2-swagger.
- *
- * (c) lichunqiang <light-li@hotmail.com>
+ * This file is part of the baitu/yii2-swagger.
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
 
-namespace baidu\swagger;
+namespace baitu\swagger;
 
 use Yii;
 use yii\base\Action;
@@ -27,7 +25,7 @@ use yii\web\Response;
  * {
  *     return [
  *         'doc' => [
- *             'class' => 'light\swagger\SwaggerAction',
+ *             'class' => 'baitu\swagger\SwaggerAction',
  *             'restUrl' => Url::to(['site/api'], true)
  *             'additionalAsset' => 'app\modules\api\assets\SwaggerUIAssetOverrides',
  *         ]
@@ -40,7 +38,7 @@ use yii\web\Response;
  * {
  *     return [
  *         'doc' => [
- *             'class' => 'light\swagger\SwaggerAction',
+ *             'class' => 'baitu\swagger\SwaggerAction',
  *             'restUrl' => [
  *                 [
  *                     'name' => 'API V1',
